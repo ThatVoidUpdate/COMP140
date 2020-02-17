@@ -1,4 +1,6 @@
 # COMP140
+https://github.com/ThatVoidUpdate/COMP140
+
 Code and docs for the COMP140 Project
 
 - Arduino: Holds code relating to the hardware
