@@ -43,6 +43,7 @@ public class PhoneListener : MonoBehaviour
             Source.Stop();
             CurrentNumber = "";
             CurrentNumberText.text = CurrentNumber.ToString();
+            StopAllCoroutines();
         }
     }
 
