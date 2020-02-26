@@ -55,8 +55,6 @@ public class Arduino : MonoBehaviour
             string Message = serial.ReadLine();
             if (Message.Contains("CradleEvent: "))
             {
-                Debug.Log("Cradle event occurred");
-
                 if (Message.Split(' ')[1] == "Up")
                 {
                     state.HandsetUp = true;
@@ -70,8 +68,6 @@ public class Arduino : MonoBehaviour
             }
             else if (Message.Contains("DialEvent"))
             {
-                Debug.Log("Dial event occurred");
-
                 if (Message.Split(' ')[1] == "10")
                 {
                     state.CurrentNumber = 0;

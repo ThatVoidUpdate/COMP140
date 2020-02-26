@@ -7,20 +7,26 @@ using UnityEngine.UI;
 public class PhoneListener : MonoBehaviour
 {
     private MenuEntry CurrentMenuEntry;
-    public MenuEntry TopLevelEntry;
+    public MenuEntry TopLevelEntry;       
 
-    private float CurrentTime = 0;
-    public float EntryTimeout = 2;
-
-    public string CurrentNumber;
-
+    [Space]
     public Image PhoneUp;
     public Image PhoneDown;
+
+    [Space]
     public Text CurrentNumberText;
+    private string CurrentNumber;
 
-    public AudioClip[] clips;
+    public float GameStartDelay;
+    public float EntryTimeout = 2;
 
+    [Space]
     public AudioSource Source;
+
+    public AudioClip ErrorClip;
+
+    [Space]
+    public GameObject DevMode;
 
     public void CradleEvent(PhoneState state)
     {
@@ -28,7 +34,7 @@ public class PhoneListener : MonoBehaviour
         {
             PhoneUp.gameObject.SetActive(true);
             PhoneDown.gameObject.SetActive(false);
-            Source.Play();
+            StartCoroutine(StartGame());
         }
         else
         {
@@ -37,7 +43,6 @@ public class PhoneListener : MonoBehaviour
             Source.Stop();
             CurrentNumber = "";
             CurrentNumberText.text = CurrentNumber.ToString();
-            Source.clip = clips[0];
         }
     }
 
@@ -46,12 +51,7 @@ public class PhoneListener : MonoBehaviour
         Source.Stop();
         CurrentNumber = CurrentNumber + state.CurrentNumber;
         CurrentNumberText.text = CurrentNumber.ToString();
-
-        if (CurrentNumber == "9999")
-        {
-            Source.clip = clips[1];
-            Source.Play();
-        }
+        SwitchMenu(state.CurrentNumber % 10);
     }
 
     public void SwitchEntry(MenuEntry NewEntry)
@@ -59,9 +59,46 @@ public class PhoneListener : MonoBehaviour
         CurrentMenuEntry = NewEntry;
     }
 
-    // Update is called once per frame
-    void Update()
+    public IEnumerator StartGame()
     {
-
+        yield return new WaitForSeconds(GameStartDelay);
+        CurrentMenuEntry = TopLevelEntry;
+        Source.loop = CurrentMenuEntry.LoopClip;
+        Source.clip = CurrentMenuEntry.clip;
+        Source.Play();
     }
+
+    public void SwitchMenu(int MenuEntry)
+    {
+        if (MenuEntry < CurrentMenuEntry.subMenus.Length && CurrentMenuEntry.subMenus[MenuEntry] != null)
+        {
+            
+            CurrentMenuEntry = CurrentMenuEntry.subMenus[MenuEntry];
+
+            if (CurrentMenuEntry.clip != null)
+            {
+                Source.clip = CurrentMenuEntry.clip;
+                Source.loop = CurrentMenuEntry.LoopClip;
+                Source.Play();
+            }
+
+            if (CurrentMenuEntry.StartMethod != "")
+            {
+                BroadcastMessage(CurrentMenuEntry.StartMethod);
+            }
+        }
+        else
+        {
+            Source.clip = ErrorClip;
+            Source.loop = false;
+            Source.Play();
+        }
+    }
+
+    public void LaunchDevMode()
+    {
+        DevMode.gameObject.SetActive(true);
+    }
+
+
 }
