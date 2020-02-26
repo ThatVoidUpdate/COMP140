@@ -7,11 +7,7 @@ using UnityEngine.UI;
 public class PhoneListener : MonoBehaviour
 {
     private MenuEntry CurrentMenuEntry;
-    public MenuEntry TopLevelEntry;       
-
-    [Space]
-    public Image PhoneUp;
-    public Image PhoneDown;
+    public MenuEntry TopLevelEntry;
 
     [Space]
     public Text CurrentNumberText;
@@ -27,6 +23,10 @@ public class PhoneListener : MonoBehaviour
 
     [Space]
     public GameObject DevMode;
+    public Text log;
+
+    public Image PhoneUp;
+    public Image PhoneDown;
 
     public void CradleEvent(PhoneState state)
     {
@@ -62,6 +62,7 @@ public class PhoneListener : MonoBehaviour
     public IEnumerator StartGame()
     {
         yield return new WaitForSeconds(GameStartDelay);
+        log.text += "Starting Game\n";
         CurrentMenuEntry = TopLevelEntry;
         Source.loop = CurrentMenuEntry.LoopClip;
         Source.clip = CurrentMenuEntry.clip;
@@ -71,9 +72,9 @@ public class PhoneListener : MonoBehaviour
     public void SwitchMenu(int MenuEntry)
     {
         if (MenuEntry < CurrentMenuEntry.subMenus.Length && CurrentMenuEntry.subMenus[MenuEntry] != null)
-        {
-            
+        {            
             CurrentMenuEntry = CurrentMenuEntry.subMenus[MenuEntry];
+            log.text += "Switched to new menu entry: " + CurrentMenuEntry.name + "\n";
 
             if (CurrentMenuEntry.clip != null)
             {
@@ -89,6 +90,7 @@ public class PhoneListener : MonoBehaviour
         }
         else
         {
+            log.text += "Error occurred\n";
             Source.clip = ErrorClip;
             Source.loop = false;
             Source.Play();
@@ -98,6 +100,12 @@ public class PhoneListener : MonoBehaviour
     public void LaunchDevMode()
     {
         DevMode.gameObject.SetActive(true);
+        log.text += "Launched dev mode\n";
+    }
+
+    public void ClearLog()
+    {
+        log.text = "";
     }
 
 
