@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
+[RequireComponent(typeof(Arduino))]
 public class PhoneListener : MonoBehaviour
 {
     private MenuEntry CurrentMenuEntry;
@@ -10,54 +12,46 @@ public class PhoneListener : MonoBehaviour
     private float CurrentTime = 0;
     public float EntryTimeout = 2;
 
-    private int CurrentInput = 0;
+    public string CurrentNumber;
+
+    public Image PhoneUp;
+    public Image PhoneDown;
+    public Text CurrentNumberText;
+
+    public AudioClip[] clips;
 
     public AudioSource Source;
 
-    public int GetInput()
+    public void CradleEvent(PhoneState state)
     {
-        if (Input.GetKeyDown(KeyCode.Keypad0))
+        if (state.HandsetUp)
         {
-            return 0;
+            PhoneUp.gameObject.SetActive(true);
+            PhoneDown.gameObject.SetActive(false);
+            Source.Play();
         }
-        if (Input.GetKeyDown(KeyCode.Keypad1))
+        else
         {
-            return 1;
+            PhoneUp.gameObject.SetActive(false);
+            PhoneDown.gameObject.SetActive(true);
+            Source.Stop();
+            CurrentNumber = "";
+            CurrentNumberText.text = CurrentNumber.ToString();
+            Source.clip = clips[0];
         }
-        if (Input.GetKeyDown(KeyCode.Keypad2))
-        {
-            return 2;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad3))
-        {
-            return 3;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad4))
-        {
-            return 4;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad5))
-        {
-            return 5;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad6))
-        {
-            return 6;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad7))
-        {
-            return 7;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad8))
-        {
-            return 8;
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad9))
-        {
-            return 9;
-        }
+    }
 
-        return -1;
+    public void DialEvent(PhoneState state)
+    {
+        Source.Stop();
+        CurrentNumber = CurrentNumber + state.CurrentNumber;
+        CurrentNumberText.text = CurrentNumber.ToString();
+
+        if (CurrentNumber == "9999")
+        {
+            Source.clip = clips[1];
+            Source.Play();
+        }
     }
 
     public void SwitchEntry(MenuEntry NewEntry)
@@ -68,19 +62,6 @@ public class PhoneListener : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CurrentTime += Time.deltaTime;
 
-        int input = GetInput();
-        if (input != -1)
-        {
-            CurrentInput = CurrentInput * 10 + input;
-            CurrentTime = 0;
-        }
-
-        if (CurrentTime > EntryTimeout)
-        {
-            CurrentMenuEntry.DoMenu(CurrentInput);
-            CurrentInput = 0;
-        }
     }
 }

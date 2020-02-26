@@ -4,7 +4,6 @@ using System.IO.Ports;
 using System;
 using System.Collections;
 
-
 public struct PhoneState
 {
     public int ID;
@@ -19,8 +18,7 @@ public struct PhoneState
     }
 }
 
-
-
+[RequireComponent(typeof(PhoneListener))]
 public class Arduino : MonoBehaviour
 {
     public int commPort = 0;
@@ -54,37 +52,36 @@ public class Arduino : MonoBehaviour
     {
         if (serial.BytesToRead > 12)
         {
-            try
+            string Message = serial.ReadLine();
+            if (Message.Contains("CradleEvent: "))
             {
-                string Message = serial.ReadLine();
-                if (Message.Contains("CradleEvent: "))
+                Debug.Log("Cradle event occurred");
+
+                if (Message.Split(' ')[1] == "Up")
                 {
-                    Debug.Log("Cradle event occurred");
-                    if (Message.Split(' ')[1] == "Up")
-                    {
-                        state.HandsetUp = true;
-                    }
-                    else
-                    {
-                        state.HandsetUp = false;
-                    }
+                    state.HandsetUp = true;
                 }
-                else if (Message.Contains("DialEvent"))
+                else
                 {
-                    Debug.Log("Dial event occurred");
-                    if (Message.Split(' ')[1] == "10")
-                    {
-                        state.CurrentNumber *= 10;
-                    }
-                    else
-                    {
-                        state.CurrentNumber = (state.CurrentNumber * 10) + Convert.ToInt32(Message.Split(' ')[1]);
-                    }
+                    state.HandsetUp = false;
                 }
+
+                BroadcastMessage("CradleEvent", state);
             }
-            catch (Exception)
+            else if (Message.Contains("DialEvent"))
             {
-                throw;
+                Debug.Log("Dial event occurred");
+
+                if (Message.Split(' ')[1] == "10")
+                {
+                    state.CurrentNumber = 0;
+                }
+                else
+                {
+                    state.CurrentNumber = Convert.ToInt32(Message.Split(' ')[1]);
+                }
+
+                BroadcastMessage("DialEvent", state);
             }
         }
     }
