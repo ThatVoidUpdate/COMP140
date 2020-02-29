@@ -1,39 +1,32 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System.IO.Ports;
 using System;
-using System.Collections;
 
+/// <summary>
+/// A simple struct to hold a single state of the phone
+/// </summary>
 public struct PhoneState
 {
-    public int ID;
-    public int CurrentNumber;
-    public bool HandsetUp;
-
-    public PhoneState(int id)
-    {
-        ID = id;
-        CurrentNumber = 0;
-        HandsetUp = false;
-    }
+    public int CurrentNumber; // The number just dialled
+    public bool HandsetUp; // Whether the handset is in the cradle or not
 }
 
 [RequireComponent(typeof(PhoneListener))]
 public class Arduino : MonoBehaviour
 {
-    public int commPort = 0;
+    public int commPort = 0; // The serial port that the Arduino is attached to
 
-    private SerialPort serial = null;
+    private SerialPort serial = null; // The serial port that communications are occurring on
 
-    public PhoneState state = new PhoneState(0);
+    public PhoneState state; // The state that the phone is currently in
 
-    // Use this for initialization
+
     void Start()
     {
-        for (int i = 2; i < 10; i++)
+        for (int i = 2; i < 10; i++) // For all possible serial ports that the arduino could be on
         {
-            try
-            {
+            try // and initiate communications on that port
+            { 
                 serial = new SerialPort("\\\\.\\COM" + i, 9600);
                 serial.ReadTimeout = 50;
                 serial.Open();
@@ -42,49 +35,37 @@ public class Arduino : MonoBehaviour
             }
             catch (System.IO.IOException)
             {
-                //We didnt select the correct com port, so try the next one
+                //If there is an error, the correct comm port wasn't selected. Try the next one
             }            
         }
-        Debug.Log("Found correct serial port: " + commPort);
+        Debug.Log("Found correct serial port: " + commPort); // Print a debug message to let us know that everything worked correctly
     }
 
     private void Update()
     {
-        if (serial.BytesToRead > 12)
+        if (serial.BytesToRead > 12) // If there are more than 12 bytes to read (The length of "DialEvent: "), then there is probably a full line available
         {
-            string Message = serial.ReadLine();
-            if (Message.Contains("CradleEvent: "))
+            string Message = serial.ReadLine(); // Attempt to read the entire line
+            if (Message.Contains("CradleEvent: ")) // If it's a cradle event
             {
-                if (Message.Split(' ')[1] == "Up")
-                {
-                    state.HandsetUp = true;
-                }
-                else
-                {
-                    state.HandsetUp = false;
-                }
+                state.HandsetUp = Message.Split(' ')[1] == "Up"; // Set the cradle state to whether the state was "up"
 
-                BroadcastMessage("CradleEvent", state);
+                BroadcastMessage("CradleEvent", state); // Call the CradleEvent method on any sibling scripts / sibling objects / child objects
             }
-            else if (Message.Contains("DialEvent"))
+            else if (Message.Contains("DialEvent")) // otherwise if it's a dial event
             {
-                if (Message.Split(' ')[1] == "10")
-                {
-                    state.CurrentNumber = 0;
-                }
-                else
-                {
-                    state.CurrentNumber = Convert.ToInt32(Message.Split(' ')[1]);
-                }
+                state.CurrentNumber = Convert.ToInt32(Message.Split(' ')[1]) % 10; // set the number dialled to the number recieved (mod 10 since a 0 is sent as 10)
 
-                BroadcastMessage("DialEvent", state);
+                BroadcastMessage("DialEvent", state); // Call the DialEvent method on any sibling scripts / sibling objects / child objects
             }
         }
     }
 
+    /// <summary>
+    /// Called when the object is destroyed, either through the game being exited or a new scene being loaded
+    /// </summary>
     void OnDestroy()
     {
-        Debug.Log("Exiting");
-        serial.Close();
+        serial.Close(); // Close the serial port to stop all communications and free it up for later connections
     }
 }
