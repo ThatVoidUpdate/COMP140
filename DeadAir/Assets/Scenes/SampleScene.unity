@@ -352,7 +352,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Dev mode help:
 
-    1) clear log'
+    1) Clear Log
+
+    2) Quit Game'
 --- !u!222 &258378523
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -758,7 +760,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1211960038
 Transform:
   m_ObjectHideFlags: 0
@@ -844,6 +846,7 @@ MonoBehaviour:
   ErrorClip: {fileID: 8300000, guid: 6134606ed16cd484581c6d6332420a9f, type: 3}
   DevMode: {fileID: 1211960037}
   log: {fileID: 817177519}
+  DevmodeDefault: 1
   PhoneUp: {fileID: 302498883}
   PhoneDown: {fileID: 2132311301}
 --- !u!82 &1932873108

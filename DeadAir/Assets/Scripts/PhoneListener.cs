@@ -24,9 +24,22 @@ public class PhoneListener : MonoBehaviour
     [Space]
     public GameObject DevMode;
     public Text log;
+    public bool DevmodeDefault;
 
+    [Space]
     public Image PhoneUp;
     public Image PhoneDown;
+
+    public void Start()
+    {
+#if UNITY_EDITOR
+        if (DevmodeDefault)
+        {
+            LaunchDevMode();
+        }
+#endif
+    }
+
 
     public void CradleEvent(PhoneState state)
     {
@@ -107,6 +120,11 @@ public class PhoneListener : MonoBehaviour
     public void ClearLog()
     {
         log.text = "";
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 
 

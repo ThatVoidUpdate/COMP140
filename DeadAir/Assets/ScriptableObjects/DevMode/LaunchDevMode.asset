@@ -16,5 +16,6 @@ MonoBehaviour:
   subMenus:
   - {fileID: 0}
   - {fileID: 11400000, guid: 3c6f9a57f54b62a4f828281333fc29d5, type: 2}
+  - {fileID: 11400000, guid: 81fc676ca6a7916409a0c8bf248ec34a, type: 2}
   LoopClip: 0
   StartMethod: LaunchDevMode
