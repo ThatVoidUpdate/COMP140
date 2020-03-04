@@ -1,1 +1,24 @@
 You have reached the Nottingsard internal phone archive system. To access records, please dial 1. For a guide on using the system, please dial 2
+Records. 9 addresses are in the database. 1. Nottingsard town hall. 2. Nottingsard Airport. 3. Nottingsard Mine. 4. Nottingsard Lighthouse. 5. <ADDRESS>. 6. <ADDRESS>. 7. <ADDRESS>. 8. <ADDRESS>. 9. <ADDRESS>. Dial 0 to input a phone number directly.
+# Dialling a number lists all recorded calls (max 10)
+Airport: there are 2 calls on record for nottingsard airport. please dial the number for the record you wish to access
+	1: airplane landing bringing in the miners with The Company(tm)
+		"Nottingsard, good afternoon, flight 452 is out thirteen six for 1 1 thousand, requesting runway zero seven and direct snake"
+		>"flight 4 5 2, runway zero seven, maintain 6 thousand, maintain present heading"
+		"cleared to 6, present heading"
+		>"flight 4 5 2 is cleared direct snake and cleared ILS zero seven"
+		"direct snake and cleared ILS zero seven"
+		"flight 4 5 2 descending to 3000 on the ILS"
+		>"Roger"
+		"flight 4 5 2 has the field in sight, requesting visual"
+		>"flight 4 5 2 is cleared the visual, runway zero seven, not below 2 until final"
+		"cleared the visual, not below 2 until final, flight 452"
+		"flight 4 5 2 is 10 miles back on the left visual zero seven"
+		>"flight 4 5 2 altimiter is three zero decimal zero five"
+		"30.05, flight 4 5 2"
+		>"flight 4 5 2 is cleared to land runway zero seven, winds 3 40 at 5 to 10"
+		"cleared to land, flight 4 5 2"
+		>"flight 4 5 2 contact ground one two one decimal niner"
+		"flight 4 5 2"
+	2: airplane taking off with scared miners
+	

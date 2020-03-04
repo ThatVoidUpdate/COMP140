@@ -10,12 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e8223ea0e8066e44190b648e2ba4172c, type: 3}
-  m_Name: Airport
+  m_Name: Airport1
   m_EditorClassIdentifier: 
-  clip: {fileID: 8300000, guid: b5c96f2e0b63f394b91a169db48695bc, type: 3}
-  subMenus:
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 692b1fde3631afe4f9663f59cebcaa19, type: 2}
-  - {fileID: 11400000, guid: e3c190362de79ff48bffa188804aaf4b, type: 2}
+  clip: {fileID: 8300000, guid: 6b77a80d44883044ca2884b77081bc2d, type: 3}
+  subMenus: []
   LoopClip: 0
   StartMethod: 

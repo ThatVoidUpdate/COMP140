@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8223ea0e8066e44190b648e2ba4172c, type: 3}
   m_Name: BaseMenu
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  subMenus: []
+  clip: {fileID: 8300000, guid: 93544b18616bf8b45b4f61ac68072c13, type: 3}
+  subMenus:
+  - {fileID: 11400000, guid: 9835bf47d1dc58b4abe6831c5df60b61, type: 2}
+  - {fileID: 11400000, guid: ec6628afe2f16b646ad1cbc50669c033, type: 2}
+  - {fileID: 11400000, guid: cf1f22951beafe642a9174ce920a05d7, type: 2}
+  - {fileID: 11400000, guid: 235e46683a318fc46b8d8807f41f1caf, type: 2}
+  - {fileID: 11400000, guid: bf05bcba92a28ee42baa4c26072f22e6, type: 2}
   LoopClip: 0
   StartMethod: 

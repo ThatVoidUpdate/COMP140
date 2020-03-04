@@ -838,15 +838,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26f2d436309671a49a77c84312fb414c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TopLevelEntry: {fileID: 11400000, guid: cc2b6cd26bc9fb64d8448e6e040c2fa6, type: 2}
-  CurrentNumberText: {fileID: 779042873}
+  TopLevelEntry: {fileID: 11400000, guid: 1c1194972b73f9346962cef3b4ed9197, type: 2}
   GameStartDelay: 2
-  EntryTimeout: 2
-  Source: {fileID: 1932873108}
   ErrorClip: {fileID: 8300000, guid: 6134606ed16cd484581c6d6332420a9f, type: 3}
   DevMode: {fileID: 1211960037}
   log: {fileID: 817177519}
   DevmodeDefault: 1
+  CurrentNumberText: {fileID: 779042873}
   PhoneUp: {fileID: 302498883}
   PhoneDown: {fileID: 2132311301}
 --- !u!82 &1932873108
