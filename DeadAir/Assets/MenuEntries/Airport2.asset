@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8223ea0e8066e44190b648e2ba4172c, type: 3}
   m_Name: Airport2
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
+  clip: {fileID: 8300000, guid: 777c7bfc033fecd4787544535cd57666, type: 3}
   subMenus: []
   LoopClip: 0
   StartMethod: 

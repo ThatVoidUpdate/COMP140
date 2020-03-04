@@ -21,4 +21,13 @@ Airport: there are 2 calls on record for nottingsard airport. please dial the nu
 		>"flight 4 5 2 contact ground one two one decimal niner"
 		"flight 4 5 2"
 	2: airplane taking off with scared miners
+		"Tower this is flight 4 5 2, requesting immidiate takeoff"
+		>"ok, flight 4 5 2 cleared for takeoff on runway one one"
+		"flight 4 5 2"
+		"flight 4 5 2"
+		>"flight 4 5 2, radar identified, maintain 7 thousand"
+		"maintain 7 thousand, flight 452"
+		>"flight 4 5 2, climb to flight level 2 3 0, and contact london control on 1 1 8 decimal 4"
+		>"flight 4 5 2, do you copy?"
+		>"flight 4 5 2, do you copy?"
 	
