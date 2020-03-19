@@ -103,6 +103,10 @@ public class PhoneListener : MonoBehaviour
                 Source.clip = CurrentMenuEntry.clip; // Set the audio to the audio on the MenuEntry
                 Source.loop = CurrentMenuEntry.LoopClip; // Loop the audio if necessary
                 Source.Play(); // Play the audio
+                if (CurrentMenuEntry.ReturnToBaseMenu)
+                {
+                    StartCoroutine(ReturnAfterDelay(Source.clip.length));
+                }
             }
 
             if (CurrentMenuEntry.StartMethod != "") // If there is a start method attached to this entry
@@ -119,12 +123,22 @@ public class PhoneListener : MonoBehaviour
         }
     }
 
+    public IEnumerator ReturnAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        CurrentMenuEntry = TopLevelEntry; // Return back to the top level of the menus
+        Source.loop = CurrentMenuEntry.LoopClip; // Loop the audio is needed
+        Source.clip = CurrentMenuEntry.clip; // Set the clip of the AudioSource
+        Source.Play(); // Play the audio
+        log.text += "Switched to new menu entry: " + CurrentMenuEntry.name + "\n"; // Add an event to the log
+    }
+
     /// <summary>
     /// Used to display stats about the game, and access developer features
     /// </summary>
     public void LaunchDevMode()
     {
-        DevMode.gameObject.SetActive(true); // Showe all of the ui elements
+        DevMode.gameObject.SetActive(true); // Show all of the ui elements
         log.text += "Launched dev mode\n"; // Append and event to the log
     }
 

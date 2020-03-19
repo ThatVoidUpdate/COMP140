@@ -9,4 +9,5 @@ public class MenuEntry : ScriptableObject
     public MenuEntry[] subMenus;
     public bool LoopClip;
     public string StartMethod;
+    public bool ReturnToBaseMenu;
 }
