@@ -16,3 +16,4 @@ MonoBehaviour:
   subMenus: []
   LoopClip: 0
   StartMethod: 
+  ReturnToBaseMenu: 1
