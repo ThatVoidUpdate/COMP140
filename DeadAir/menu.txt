@@ -1,6 +1,29 @@
 You have reached the Nottingsard internal phone archive system. To access records, please dial 1. For a guide on using the system, please dial 2
-Records. 9 addresses are in the database. 1. Nottingsard town hall. 2. Nottingsard Airport. 3. Nottingsard Mine. 4. Nottingsard Lighthouse. 5. <ADDRESS>. 6. <ADDRESS>. 7. <ADDRESS>. 8. <ADDRESS>. 9. <ADDRESS>. Dial 0 to input a phone number directly.
-# Dialling a number lists all recorded calls (max 10)
+Records. 9 addresses are in the database. 1. Nottingsard town hall. 2. Nottingsard Airport. 3. Big Mines inc Mine. 4. Nottingsard Lighthouse.
+Town Hall: There are calls on record for Nottingsard Town Hall. Please dial the number for the record you wish to access
+	1: first call with Big Mines inc
+	  >"Hello, this is Nottingsard town hall. Who is this?"
+	  "This is Jeff Coombes from Big Mines inc, I want to talk to you about your land"
+	  >"Ah, yes, Big Mines inc. I hear you have a reputation for getting what you want"
+	  "Yes"
+	  >"So why are you calling then?"
+	  "We believe that you have significant deposits of high quality iron ore on your island that could be worth a lot of money"
+	  >"High quality iron ore? on our island? I think you are mistaken about that"
+	  "No, I have the results right here in front of me"
+	  >"Oh, I see then. so what do you want me to do?"
+	  "I want you to sign a contract that lets us mine on your island, and we will give you 40 percent of the profits"
+	  >"40 percent? after you go around tearing up our land? no deal"
+	  "i thought you might say that, so how about this. 45 percent, and we make it go as quickly as possible"
+	  >"I will have to think on it"
+	  "A pleasure doing buisness with you"
+	  >"And with you"
+	2: complaint from lighthouse about noise
+	  "Hi, this is pete from the lighthouse"
+	  "Hi pete, what's up?"
+	  "Its the miners, they're making an awful lot of noise"
+	  "Well I assume that it is just them drilling. 
+	2: mine crew retreating, questions about island
+	  
 Airport: there are 2 calls on record for nottingsard airport. please dial the number for the record you wish to access
 	1: airplane landing bringing in the miners with The Company(tm)
 		"Nottingsard, good afternoon, flight 452 is out thirteen six for 1 1 thousand, requesting runway two niner and direct snake"
@@ -14,7 +37,7 @@ Airport: there are 2 calls on record for nottingsard airport. please dial the nu
 		>"flight 4 5 2 is cleared the visual, runway two niner, not below 2 until final"
 		"cleared the visual, not below 2 until final, flight 4 5 2"
 		"flight 4 5 2 is 10 miles back on the left visual two niner"
-		>"flight 4 5 2, altimiter is zero one decimal five"
+		>"flight 4 5 2, altimeter is zero one decimal five"
 		"30.05, flight 4 5 2"
 		>"flight 4 5 2 is cleared to land runway two niner, winds 3 40 at 5 to 10"
 		"cleared to land, flight 4 5 2"
@@ -30,4 +53,12 @@ Airport: there are 2 calls on record for nottingsard airport. please dial the nu
 		>"flight 4 5 2, climb to flight level 2 3 0, and contact london control on 1 1 8 decimal 4"
 		>"flight 4 5 2, do you copy?"
 		>"flight 4 5 2, do you copy?"
+Mine: There are 3 calls on record for Big Mines inc mine. Please dial the number for the record you wish to access
+	1: everything proceeding as normal, reporting amounts of tools and iron
+	2: several incidents
+	3: many incidents, crew retreating from mine
+
+Lighthouse: There are 2 calls on record for nottingsard lighthouse. Please dial the number for the record you wish to access
+	1: reply from town hall about noise complaint
+	2: discuss old stories about the island
 	
