@@ -76,4 +76,14 @@ Mine: There are 3 calls on record for Big Mines inc mine. Please dial the number
 
 Lighthouse: There are 2 calls on record for nottingsard lighthouse. Please dial the number for the record you wish to access
 	1: reply from town hall about noise complaint, discuss old stories about island
+		"hey pete"
+		>"Hey, whats up?"
+		"I talked to those mining guys, and i have bad news for you. They cant really stop the noise"
+		>"Oh, thats a pain. I guess i'll just have to buy some earplugs then"
+		"looks like it"
+		>"I've been thinking recently, do you remember the stories of Avean that i told you when you were a boy?"
+		"every word"
+		>"well, do you think that this is what's been happening? the miners are releasing the power? with these different headaches we've been having, and the strange noises, don't you think that something must be going on?"
+		"dont be silly, pete. they are just stories, aren't they?"
+		>"Well you know what they say. every story has basis in truth"
 	
