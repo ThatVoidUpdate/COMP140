@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8223ea0e8066e44190b648e2ba4172c, type: 3}
   m_Name: Lighthouse
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  subMenus: []
+  clip: {fileID: 8300000, guid: e32f94a84bdb61d4a9c0b2c19900927a, type: 3}
+  subMenus:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 58bed456a510bcd44b02dd2406fe19b4, type: 2}
   LoopClip: 0
   StartMethod: 
+  ReturnToBaseMenu: 0

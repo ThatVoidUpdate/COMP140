@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8223ea0e8066e44190b648e2ba4172c, type: 3}
   m_Name: TownHall
   m_EditorClassIdentifier: 
-  clip: {fileID: 0}
-  subMenus: []
+  clip: {fileID: 8300000, guid: 8bfe487a23e2a134fb2fa979addb7a53, type: 3}
+  subMenus:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: ec692f7b7e3708c40b387bad8c12e38a, type: 2}
+  - {fileID: 11400000, guid: 80d49e4a08e00974a8fe19a9473b47c8, type: 2}
+  - {fileID: 11400000, guid: a35c9286e8f4da54ea3e1988803e1a31, type: 2}
   LoopClip: 0
   StartMethod: 
+  ReturnToBaseMenu: 0

@@ -1,6 +1,6 @@
 You have reached the Nottingsard internal phone archive system. To access records, please dial 1. For a guide on using the system, please dial 2
 Records. 9 addresses are in the database. 1. Nottingsard town hall. 2. Nottingsard Airport. 3. Big Mines inc Mine. 4. Nottingsard Lighthouse.
-Town Hall: There are calls on record for Nottingsard Town Hall. Please dial the number for the record you wish to access
+Town Hall: There are 3 calls on record for Nottingsard Town Hall. Please dial the number for the record you wish to access
 	1: first call with Big Mines inc
 		>"Hello, this is Nottingsard town hall. Who is this?"
 		"This is Jeff Coombes from Big Mines inc, I want to talk to you about your land"
@@ -30,7 +30,7 @@ Town Hall: There are calls on record for Nottingsard Town Hall. Please dial the 
 	  	>"That's interesting, I think I've been getting those too. Maybe the mining is releasing some kind of gas? I'll have to talk to a doctor about that"
 	  	"Alright, I'll see you around"
 	  	>"Thanks pete"
-	2: mine crew retreating, questions about island
+	3: mine crew retreating, questions about island
 	  	"Hello, this is Jeff Coombes from Big Mines inc again. We have been having a problem with the mining"
 	  	>"Hi, jeff, what's been happening then?"
 	  	"Well the miners have decided that they dont want to work on your island anymore. any idea why?"
@@ -71,10 +71,36 @@ Airport: there are 2 calls on record for nottingsard airport. please dial the nu
 		>"flight 4 5 2, do you copy?"
 Mine: There are 3 calls on record for Big Mines inc mine. Please dial the number for the record you wish to access
 	1: everything proceeding as normal, reporting amounts of tools and iron
+		"Hey boss, just an update on the day's haul. we managed 2 tons of iron ore today, although we had to send 1 pneumatic drill in for repairs"
+		>"ok, 2 tons of ore collected, and 1 pneumatic drill sent for repairs. what happened to it"
+		"I dont know, some kind of incident with a rockfall"
+		>"ok, so nothing too major then?"
+		"shouldn't be"
+		>"ok. Anything else?"
+		"Yeah. some of the lads are wondering why we are such a skeleton crew, and why we aren't taking all of the safety precautions?"
+		>"I don't know all of the details, but apparently you are a skeleton crew to save expenses, and the safety issues are because they want to rush all of this through as quickly as possible. seems excessive, but I'm not the man in chage"
 	2: several incidents
+		"hey, just an update on today's take. we only managed 1 and a half tons of ore today, due to several incidents"
+		>"several incidents? what kind of incidents?"
+		"well, we had one lad fall off a platform, and break his leg"
+		>"a broken leg? i hope you took him to the doctors. what else?"
+		"well one of the pneumatic pumps failed, so several of the drills stopped working properly"
+		>"a pump failure? how long will that take to fix?"
+		"Several days maybe? and lastly, it felt like there was a small earthquake. it caused some rockfalls throughout the mine system, so we are going to have to rethink where we focus on digging while we clear the loose rock"
+		>"an earthquake? but we didnt feel anything up on the surface. How long do you expect it will take to clear the rocks?"
+		"maybe a week or two? lots of tunnels got caved in"
+		>"damn, ok, I guess i'll have to talk to the guy in charge about this"
 	3: many incidents, crew retreating from mine
+		"ok, boss, we are leaving. we are not working here anymore, there have been too many accidents"
+		>"What do you mean? you cant just leave, you have to hand in your notice"
+		"to hell with the notice, there has been too much going wrong. we arent usually the superstitious type, but we've been hearing sounds from things that aren't there, we've been having equiptment malfunctions, and injuries. we cant work here"
+		>"whoa whoa whoa, slow down, what do you mean sounds from things that aren't there?"
+		"detail i cant be bothered to put in"
+		>"ok, that sounds pretty weird. and an increase in malfunctions and injuries? are yo sure you havent just been missing these issues when inspecting the tools?"
+		"you think we would miss a slashed pneumatic hose, or a drill that has almost been ripped in half?"
+		>"ok, you've made your point"
 
-Lighthouse: There are 2 calls on record for nottingsard lighthouse. Please dial the number for the record you wish to access
+Lighthouse: There is 1 call on record for nottingsard lighthouse. Please dial the number for the record you wish to access
 	1: reply from town hall about noise complaint, discuss old stories about island
 		"hey pete"
 		>"Hey, whats up?"
@@ -86,4 +112,3 @@ Lighthouse: There are 2 calls on record for nottingsard lighthouse. Please dial 
 		>"well, do you think that this is what's been happening? the miners are releasing the power? with these different headaches we've been having, and the strange noises, don't you think that something must be going on?"
 		"dont be silly, pete. they are just stories, aren't they?"
 		>"Well you know what they say. every story has basis in truth"
-	
