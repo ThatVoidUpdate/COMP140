@@ -2,27 +2,43 @@ You have reached the Nottingsard internal phone archive system. To access record
 Records. 9 addresses are in the database. 1. Nottingsard town hall. 2. Nottingsard Airport. 3. Big Mines inc Mine. 4. Nottingsard Lighthouse.
 Town Hall: There are calls on record for Nottingsard Town Hall. Please dial the number for the record you wish to access
 	1: first call with Big Mines inc
-	  >"Hello, this is Nottingsard town hall. Who is this?"
-	  "This is Jeff Coombes from Big Mines inc, I want to talk to you about your land"
-	  >"Ah, yes, Big Mines inc. I hear you have a reputation for getting what you want"
-	  "Yes"
-	  >"So why are you calling then?"
-	  "We believe that you have significant deposits of high quality iron ore on your island that could be worth a lot of money"
-	  >"High quality iron ore? on our island? I think you are mistaken about that"
-	  "No, I have the results right here in front of me"
-	  >"Oh, I see then. so what do you want me to do?"
-	  "I want you to sign a contract that lets us mine on your island, and we will give you 40 percent of the profits"
-	  >"40 percent? after you go around tearing up our land? no deal"
-	  "i thought you might say that, so how about this. 45 percent, and we make it go as quickly as possible"
-	  >"I will have to think on it"
-	  "A pleasure doing buisness with you"
-	  >"And with you"
+		>"Hello, this is Nottingsard town hall. Who is this?"
+		"This is Jeff Coombes from Big Mines inc, I want to talk to you about your land"
+		>"Ah, yes, Big Mines inc. I hear you have a reputation for getting what you want"
+		"Yes"
+		>"So why are you calling then?"
+		"We believe that you have significant deposits of high quality iron ore on your island that could be worth a lot of money"
+		>"High quality iron ore? on our island? I think you are mistaken about that"
+		"No, I have the results right here in front of me"
+		>"Oh, I see then. so what do you want me to do?"
+		"I want you to sign a contract that lets us mine on your island, and we will give you 40 percent of the profits"
+		>"40 percent? after you go around tearing up our land? no deal"
+	 	"I thought you might say that, so how about this. 45 percent, and we make it go as quickly as possible"
+	  	>"I will have to think on it"
+	  	"A pleasure doing buisness with you"
+	  	>"And with you"
 	2: complaint from lighthouse about noise
-	  "Hi, this is pete from the lighthouse"
-	  "Hi pete, what's up?"
-	  "Its the miners, they're making an awful lot of noise"
-	  "Well I assume that it is just them drilling. 
+	  	"Hi, this is pete from the lighthouse"
+	  	>"Hi pete, what's up?"
+	  	"Its the miners, they're making an awful lot of noise"
+	  	>"Well I assume that it is just them drilling. I can try to tell them to keep it down, but I'm not sure there's a huge amount we can do about it"
+	  	"It's not just that, there are different sounds too, like a moaning"
+	  	>"A moaning?"
+	  	"Yes, but its very quiet. It sounds like the ground itself is in pain"
+	  	>"That's interesting, I'll have to pass that along to the miners. Is that everything?"
+	  	"just one more thing. I've been haivng a lot of headaches recently, but they feel different to how they usually happen to me"
+	  	>"That's interesting, I think I've been getting those too. Maybe the mining is releasing some kind of gas? I'll have to talk to a doctor about that"
+	  	"Alright, I'll see you around"
+	  	>"Thanks pete"
 	2: mine crew retreating, questions about island
+	  	"Hello, this is Jeff Coombes from Big Mines inc again. We have been having a problem with the mining"
+	  	>"Hi, jeff, what's been happening then?"
+	  	"Well the miners have decided that they dont want to work on your island anymore. any idea why?"
+	  	>"They don't want to work here? well I don't know why that would be, we haven't done anything to them"
+	  	"They say that there have been a large amount of incidents in the mine, and several medical issues"
+	  	>"Lots of incidents? medical issues? It sounds like pete may have been right after all"
+	  	"What do you mean?"
+	  	>"Well pete is the lighthouse keeper, and he has been telling me stories about this island since I was a little boy, including the story of Avean. Avean is an anciuent force that was locked up on this island many thousand of years ago, to keep it away from the gods. Once locked away, it was intented to be forgotten, but you seem to have awoken it again. now there is nothing that can save all of us"
 	  
 Airport: there are 2 calls on record for nottingsard airport. please dial the number for the record you wish to access
 	1: airplane landing bringing in the miners with The Company(tm)
@@ -59,6 +75,5 @@ Mine: There are 3 calls on record for Big Mines inc mine. Please dial the number
 	3: many incidents, crew retreating from mine
 
 Lighthouse: There are 2 calls on record for nottingsard lighthouse. Please dial the number for the record you wish to access
-	1: reply from town hall about noise complaint
-	2: discuss old stories about the island
+	1: reply from town hall about noise complaint, discuss old stories about island
 	
