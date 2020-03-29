@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.10)  29 MAR 2020 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.10)  29 MAR 2020 17:03
 entering extended mode
 **d:/COMP140/Docs/Report/report.tex
 (d:/COMP140/Docs/Report/report.tex
@@ -22,41 +22,37 @@ File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 ) (d:\COMP140\Docs\Report\report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 13.
+(Font)              <14.4> on input line 10.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 13.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 13.
+(Font)              <7> on input line 10.
  [1
 
 {C:/Users/matth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (d:\COMP140\Docs\Report\report.aux) ) 
 Here is how much of TeX's memory you used:
- 228 strings out of 492895
- 2624 string characters out of 3138151
- 61874 words of memory out of 3000000
- 4223 multiletter control sequences out of 15000+200000
- 7594 words of font info for 27 fonts, out of 3000000 for 9000
+ 218 strings out of 492895
+ 2468 string characters out of 3138151
+ 61754 words of memory out of 3000000
+ 4214 multiletter control sequences out of 15000+200000
+ 5756 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 22i,9n,19p,155b,198s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on d:\COMP140\Docs\Report\report.pdf (1 page, 69284 bytes).
+ 22i,6n,19p,159b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on d:\COMP140\Docs\Report\report.pdf (1 page, 42188 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
