@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.10)  29 MAR 2020 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.10)  30 MAR 2020 23:17
 entering extended mode
 **d:/COMP140/Docs/Report/report.tex
 (d:/COMP140/Docs/Report/report.tex
@@ -200,14 +200,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./Pictures/PhoneBottom.png, id=13, 722.7pt x 1284.8pt>
 File: ./Pictures/PhoneBottom.png Graphic file (type png)
 <use ./Pictures/PhoneBottom.png>
-Package pdftex.def Info: ./Pictures/PhoneBottom.png  used on input line 77.
+Package pdftex.def Info: ./Pictures/PhoneBottom.png  used on input line 78.
 (pdftex.def)             Requested size: 117.43875pt x 208.76772pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--86
+Underfull \hbox (badness 10000) in paragraph at lines 82--87
 
  []
 
@@ -215,12 +215,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--86
 <./Pictures/CircuitDiagram.png, id=21, 581.92406pt x 565.36218pt>
 File: ./Pictures/CircuitDiagram.png Graphic file (type png)
 <use ./Pictures/CircuitDiagram.png>
-Package pdftex.def Info: ./Pictures/CircuitDiagram.png  used on input line 100.
+Package pdftex.def Info: ./Pictures/CircuitDiagram.png  used on input line 101.
 (pdftex.def)             Requested size: 234.8775pt x 228.1854pt.
 <./Pictures/PhoneInside.png, id=22, 308.352pt x 173.448pt>
 File: ./Pictures/PhoneInside.png Graphic file (type png)
 <use ./Pictures/PhoneInside.png>
-Package pdftex.def Info: ./Pictures/PhoneInside.png  used on input line 106.
+Package pdftex.def Info: ./Pictures/PhoneInside.png  used on input line 107.
 (pdftex.def)             Requested size: 234.8775pt x 132.12091pt.
  [4
 
@@ -228,12 +228,12 @@ Package pdftex.def Info: ./Pictures/PhoneInside.png  used on input line 106.
 <./Pictures/ActivityDiagram.png, id=27, 480.29437pt x 441.90094pt>
 File: ./Pictures/ActivityDiagram.png Graphic file (type png)
 <use ./Pictures/ActivityDiagram.png>
-Package pdftex.def Info: ./Pictures/ActivityDiagram.png  used on input line 144.
+Package pdftex.def Info: ./Pictures/ActivityDiagram.png  used on input line 145.
 (pdftex.def)             Requested size: 234.8775pt x 216.1018pt.
 <./Pictures/ClassDiagram.png, id=28, 633.86812pt x 562.35094pt>
 File: ./Pictures/ClassDiagram.png Graphic file (type png)
 <use ./Pictures/ClassDiagram.png>
-Package pdftex.def Info: ./Pictures/ClassDiagram.png  used on input line 150.
+Package pdftex.def Info: ./Pictures/ClassDiagram.png  used on input line 151.
 (pdftex.def)             Requested size: 352.31625pt x 312.57182pt.
 
 
@@ -242,7 +242,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./Pictures/SequenceDiagram.png, id=29, 586.44093pt x 569.12625pt>
 File: ./Pictures/SequenceDiagram.png Graphic file (type png)
 <use ./Pictures/SequenceDiagram.png>
-Package pdftex.def Info: ./Pictures/SequenceDiagram.png  used on input line 156.
+Package pdftex.def Info: ./Pictures/SequenceDiagram.png  used on input line 157.
 (pdftex.def)             Requested size: 234.8775pt x 227.94173pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -250,7 +250,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./Pictures/StateDiagram.png, id=30, 434.37282pt x 406.51875pt>
 File: ./Pictures/StateDiagram.png Graphic file (type png)
 <use ./Pictures/StateDiagram.png>
-Package pdftex.def Info: ./Pictures/StateDiagram.png  used on input line 162.
+Package pdftex.def Info: ./Pictures/StateDiagram.png  used on input line 163.
 (pdftex.def)             Requested size: 234.8775pt x 219.82079pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -258,7 +258,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./Pictures/UseCaseDiagram.png, id=31, 414.04688pt x 411.03563pt>
 File: ./Pictures/UseCaseDiagram.png Graphic file (type png)
 <use ./Pictures/UseCaseDiagram.png>
-Package pdftex.def Info: ./Pictures/UseCaseDiagram.png  used on input line 168.
+Package pdftex.def Info: ./Pictures/UseCaseDiagram.png  used on input line 169.
 (pdftex.def)             Requested size: 234.8775pt x 233.17635pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -275,7 +275,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  41i,6n,32p,310b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on d:\COMP140\Docs\Report\report.pdf (8 pages, 9060340 bytes).
+Output written on d:\COMP140\Docs\Report\report.pdf (8 pages, 9060346 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
