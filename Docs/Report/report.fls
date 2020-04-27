@@ -68,6 +68,7 @@ OUTPUT d:\COMP140\Docs\Report\report.pdf
 INPUT .\Pictures\TheReassembler.png
 INPUT .\Pictures\TheReassembler.png
 INPUT .\Pictures\TheReassembler.png
+INPUT C:\Users\matth\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT Pictures\PhoneFront.png
 INPUT .\Pictures\PhoneFront.png
 INPUT .\Pictures\PhoneFront.png
@@ -83,7 +84,6 @@ INPUT .\Pictures\PhoneBack.png
 INPUT .\Pictures\PhoneBack.png
 INPUT .\Pictures\PhoneBack.png
 INPUT .\Pictures\PhoneBack.png
-INPUT C:\Users\matth\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT Pictures\PhoneBottom.png
 INPUT .\Pictures\PhoneBottom.png
 INPUT .\Pictures\PhoneBottom.png

@@ -14,12 +14,12 @@
 \begin{document}
 \maketitle
 
-\section{Project proposal} %i.  The project proposal
-Dead Air: an investigative phone experience.\\
-A small british village on a remote island has suddenly stopped communicating with the mainland. 
-You try calling them one day, and accidentally find an internal archive system, 
-which has recorded the last calls made by all the phones, but only one half of the conversation. 
-What has happened, why and how? And do you even want to know?
+\section{Project concept} %i.  The project proposal
+The controller itself is an old GPO phone, with the insides replaced with an arduino. It can send the state of the phone to a computer,
+which can send back audio to play through the handset.\\
+In terms of the game itself, you have accidentally dialled into the internal phone archive system of a small island,
+but due to budget cuts, storage is very limited, so it can only record one side of the conversation, and only the words spoken, not the actual audio.
+This can give the space for creating intrigue in a similar manner to the popular game ``Her story''
 
 \FloatBarrier
 \section{Design} %iii.  Design of the the controller, including wiring, casing and attachments
@@ -71,7 +71,7 @@ the only remaing problem was that the dial would often stick,
 and not return to its resting position easily. 
 I fixed this by adding a small amount of lubricant to the internal mechanism of the dial.\\
 One interesting thing to note is that on the bottom of many GPO phones, there are very informative manufacturer markings. 
-For example on the bottom of this phone, you can see "746F DFM 80/2".
+For example on the bottom of this phone, you can see ``746F DFM 80/2''.
 
 \begin{figure}[h]
     \centering
@@ -125,8 +125,8 @@ which saved me having to buy something like an Adafruit WAVTrigger, and do it al
 \section{Software} %v.  Software design with UML Diagrams
 The software design remained fairly constant through the entire project, 
 with the arduino simply listening to the hardware, 
-and sending the events back to the unity game (events such as "the handset waas picked up", 
-"The user dialled a 3" etc.). This meant that I didn't have to code as much in C, 
+and sending the events back to the unity game (events such as ``the handset waas picked up'', 
+``The user dialled a 3'' etc.). This meant that I didn't have to code as much in C, 
 a language I am not very confident in, and would have to code more in C\#, 
 a language I am much more familiar with. 
 I could also take advantage of a lot of the features of unity such as scriptable objects, 

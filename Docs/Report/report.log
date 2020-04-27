@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.10)  30 MAR 2020 23:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.10)  27 APR 2020 14:32
 entering extended mode
 **d:/COMP140/Docs/Report/report.tex
 (d:/COMP140/Docs/Report/report.tex
@@ -61,7 +61,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
  (D:\Programs\LaTeX\tex/latex/geometry\geometry.cfg)) (D:\Programs\LaTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
-) (d:\COMP140\Docs\Report\report.aux)
+) (d:/COMP140\Docs\Report\report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
@@ -176,55 +176,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--57
 
  []
 
-<./Pictures/PhoneFront.png, id=3, 722.7pt x 1284.8pt>
+[1
+
+{C:/Users/matth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<./Pictures/PhoneFront.png, id=10, 722.7pt x 1284.8pt>
 File: ./Pictures/PhoneFront.png Graphic file (type png)
 <use ./Pictures/PhoneFront.png>
 Package pdftex.def Info: ./Pictures/PhoneFront.png  used on input line 60.
 (pdftex.def)             Requested size: 117.43875pt x 208.76772pt.
-<./Pictures/PhoneSide.png, id=4, 722.7pt x 1284.8pt>
+<./Pictures/PhoneSide.png, id=11, 722.7pt x 1284.8pt>
 File: ./Pictures/PhoneSide.png Graphic file (type png)
 <use ./Pictures/PhoneSide.png>
 Package pdftex.def Info: ./Pictures/PhoneSide.png  used on input line 61.
 (pdftex.def)             Requested size: 117.43875pt x 208.76772pt.
-<./Pictures/PhoneBack.png, id=5, 722.7pt x 1284.8pt>
+<./Pictures/PhoneBack.png, id=12, 722.7pt x 1284.8pt>
 File: ./Pictures/PhoneBack.png Graphic file (type png)
 <use ./Pictures/PhoneBack.png>
 Package pdftex.def Info: ./Pictures/PhoneBack.png  used on input line 62.
 (pdftex.def)             Requested size: 117.43875pt x 208.76772pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1
-
-{C:/Users/matth/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<./Pictures/PhoneBottom.png, id=13, 722.7pt x 1284.8pt>
+ [2 <./Pictures/TheReassembler.png> <./Pictures/PhoneFront.png> <./Pictures/PhoneSide.png> <./Pictures/PhoneBack.png>]
+<./Pictures/PhoneBottom.png, id=17, 722.7pt x 1284.8pt>
 File: ./Pictures/PhoneBottom.png Graphic file (type png)
 <use ./Pictures/PhoneBottom.png>
 Package pdftex.def Info: ./Pictures/PhoneBottom.png  used on input line 78.
 (pdftex.def)             Requested size: 117.43875pt x 208.76772pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 82--87
 
  []
 
-[2 <./Pictures/TheReassembler.png>] [3 <./Pictures/PhoneFront.png> <./Pictures/PhoneSide.png> <./Pictures/PhoneBack.png> <./Pictures/PhoneBottom.png>]
-<./Pictures/CircuitDiagram.png, id=21, 581.92406pt x 565.36218pt>
+<./Pictures/CircuitDiagram.png, id=18, 581.92406pt x 565.36218pt>
 File: ./Pictures/CircuitDiagram.png Graphic file (type png)
 <use ./Pictures/CircuitDiagram.png>
 Package pdftex.def Info: ./Pictures/CircuitDiagram.png  used on input line 101.
 (pdftex.def)             Requested size: 234.8775pt x 228.1854pt.
-<./Pictures/PhoneInside.png, id=22, 308.352pt x 173.448pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Pictures/PhoneInside.png, id=19, 308.352pt x 173.448pt>
 File: ./Pictures/PhoneInside.png Graphic file (type png)
 <use ./Pictures/PhoneInside.png>
 Package pdftex.def Info: ./Pictures/PhoneInside.png  used on input line 107.
 (pdftex.def)             Requested size: 234.8775pt x 132.12091pt.
- [4
 
- <./Pictures/CircuitDiagram.png> <./Pictures/PhoneInside.png>]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./Pictures/PhoneBottom.png>] [4 <./Pictures/CircuitDiagram.png> <./Pictures/PhoneInside.png>]
 <./Pictures/ActivityDiagram.png, id=27, 480.29437pt x 441.90094pt>
 File: ./Pictures/ActivityDiagram.png Graphic file (type png)
 <use ./Pictures/ActivityDiagram.png>
@@ -265,17 +262,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5 <./Pictures/ActivityDiagram.png>] [6 <./Pictures/ClassDiagram.png> <./Pictures/SequenceDiagram.png>] [7 <./Pictures/StateDiagram.png> <./Pictures/UseCaseDiagram.png>] [8
 
-] (d:\COMP140\Docs\Report\report.aux) ) 
+] (d:/COMP140\Docs\Report\report.aux) ) 
 Here is how much of TeX's memory you used:
- 1986 strings out of 492895
- 29044 string characters out of 3138151
- 102152 words of memory out of 3000000
+ 1985 strings out of 492895
+ 29021 string characters out of 3138151
+ 100152 words of memory out of 3000000
  5888 multiletter control sequences out of 15000+200000
  6063 words of font info for 22 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,6n,32p,310b,222s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Programs/LaTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on d:\COMP140\Docs\Report\report.pdf (8 pages, 9060346 bytes).
+Output written on d:/COMP140\Docs\Report\report.pdf (8 pages, 9060089 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
